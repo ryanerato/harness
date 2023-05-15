@@ -1,0 +1,9 @@
+version: "3"
+services:
+  harness-dev:
+    restart: never
+    image: ghcr.io/ryanerato/harness-dev:latest
+    container_name: harness-development
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - .:/harness
