@@ -34,6 +34,8 @@ project/plugins/project/
 # User-specific stuff:
 .idea/workspace.xml
 .idea/tasks.xml
+data/
+logs/
 
 # Sensitive or high-churn files:
 .idea/dataSources/
